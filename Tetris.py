@@ -1,3 +1,5 @@
+# Tetis game
+
 import pygame
 import random
 
@@ -409,4 +411,3 @@ def main_menu(win):
 win = pygame.display.set_mode((s_width, s_height))
 pygame.display.set_caption('Tetris')
 main_menu(win)  # start game
-0
