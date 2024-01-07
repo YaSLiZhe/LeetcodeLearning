@@ -1,3 +1,6 @@
+Basic questions: (python version)
+[answer](basic.ipynb)
+
 列表（list/array list/array 等）。列表常见操作，以及相关的时间复杂度。
 append 一个元素、pop 末尾元素均为 O（1）
 查找某个元素的索引 O（n）
