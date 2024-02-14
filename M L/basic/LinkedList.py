@@ -13,16 +13,16 @@ class LinkedList:
             self.append(arr)
 
     def add(self, location, data):
-        new_code = ListNode(data)
+        new_node = ListNode(data)
         if location == 0:
-            new_code.next = self.head
-            self.head = new_code
+            new_node.next = self.head
+            self.head = new_node
         elif location > 0:
             pre = self.head
             for i in range(location-1):
                 pre = pre.next
-            new_code.next = pre.next
-            pre.next = new_code
+            new_node.next = pre.next
+            pre.next = new_node
 
     def is_empty(self):
         return self.head is None
