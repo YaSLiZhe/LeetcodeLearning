@@ -77,7 +77,8 @@ class LinkedList:
         return pre
 
 
-def __main__(self):
+if __name__ == "__main__":
+    ll = LinkedList()
     ll.create([1, 2, 3, 4, 5])
     ll.add(1, 2)
     ll.append(8)
@@ -87,7 +88,3 @@ def __main__(self):
     ll.head = ll.reverse()
     ll.display()
     # ll.get(4)
-
-
-ll = LinkedList()
-__main__(ll)
